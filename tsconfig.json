@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "Node",
+    "target": "es2015",
+    "lib": ["ES2015", "DOM"],
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "rollup.config.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
